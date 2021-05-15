@@ -1,6 +1,16 @@
 # AMSI-Provider
 
-A fake AMSI Provider which can be used to gain persistence on a host when a specific text is triggered. By default a calc.exe will open.
+A fake AMSI Provider which can be used to gain persistence on a host when a specific text is triggered. By default calc.exe will open. 
+
+# Usage
+
+The AMSI Provider can be registered with the system by executing the following command from an elevated command prompt:
+
+`regsvr32 AmsiProvider.dll`
+
+Executing the following from a PowerShell console will open calc.exe:
+
+`"pentestlab"`
 
 # Credits
 
