@@ -1,0 +1,1 @@
+C:\Users\panag\Downloads\IAntimalwareProvider_interface_sample\x64\Release\AmsiProvider.dll
